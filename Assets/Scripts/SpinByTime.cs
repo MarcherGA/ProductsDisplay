@@ -4,8 +4,8 @@ public class SpinByTime : MonoBehaviour
 {
     [SerializeField] private float speed = 100f;
 
-    void Update()
+    void FixedUpdate()
     {
-        transform.Rotate(Vector3.up, speed * Time.deltaTime);
+        transform.Rotate(Vector3.up, speed * Time.fixedDeltaTime);
     }
 }

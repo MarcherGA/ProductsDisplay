@@ -1356,7 +1356,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _productFocus: {fileID: 990064452}
-  _parentTransform: {fileID: 990064451}
+  _productService: {fileID: 1657634258}
+  _parent: {fileID: 990064451}
   _productPrefab: {fileID: 8799896442515918528, guid: 479b15ade3b64fb4cba170707d2061c3,
     type: 3}
   _gap: 0.4
@@ -2115,8 +2116,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1657634257}
   - component: {fileID: 1657634256}
+  - component: {fileID: 1657634258}
   m_Layer: 0
-  m_Name: ConfigImporter
+  m_Name: ServicesProvider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2150,6 +2152,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1657634258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657634255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc52f0b0bafa1840af3640723463c70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1970035745
 GameObject:
   m_ObjectHideFlags: 0
@@ -2244,8 +2258,8 @@ SceneRoots:
   - {fileID: 410087041}
   - {fileID: 832575519}
   - {fileID: 801742809}
+  - {fileID: 1657634257}
   - {fileID: 1212469128}
+  - {fileID: 28740848}
   - {fileID: 548710203}
   - {fileID: 1397698558}
-  - {fileID: 28740848}
-  - {fileID: 1657634257}
